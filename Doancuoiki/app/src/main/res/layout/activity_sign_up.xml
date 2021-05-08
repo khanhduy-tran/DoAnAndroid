@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="#ff00"
+            android:background="#36EBF4"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Dang Ky Tai Khoan" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextHoTen"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_back_accent"
+        android:drawableLeft="@drawable/fullname"
+        android:drawablePadding="4sp"
+        android:hint="Họ tên"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextBirtday"
+        android:drawableRight="@drawable/datepicker"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_back_accent"
+        android:drawableLeft="@drawable/birthday"
+        android:drawablePadding="4sp"
+        android:hint="Ngày sinh"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextDiaChi"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_back_accent"
+        android:drawableLeft="@drawable/address"
+        android:drawablePadding="4sp"
+        android:hint="Địa chỉ"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_back_accent"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="4sp"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/editTextSDT"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_back_accent"
+        android:drawableLeft="@drawable/phone32"
+        android:drawablePadding="4sp"
+        android:hint="SĐT"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTaiKhoan"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_back_accent"
+        android:drawableLeft="@drawable/user32"
+        android:drawablePadding="4sp"
+        android:hint="Tên Tài Khoản"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextMatKhau"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_back_accent"
+        android:drawableLeft="@drawable/password32"
+        android:drawablePadding="4sp"
+        android:hint="Mật Khẩu"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/btn_primary_red"
+        android:drawableRight="@drawable/arroe_right"
+        android:drawablePadding="@dimen/padding_4"
+        android:text="Đăng Ký"
+        android:textColor="@android:color/white"
+        app:backgroundTint="@null" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
